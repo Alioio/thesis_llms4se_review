@@ -49,7 +49,7 @@ class ResearchFocusCategory(Enum):
     DATASET_BENCHMARK = 'dataset_benchmark', 'Papers creating new Datasets or Benchmarks Y\' related to Problem(s) X of SE-Task(s) X for assessing the quality of Solutions Y.'
     LLM_PROPERTY_INVESTIGATION = 'llm_property_investigation', 'Papers investigating properties of LLMs related to Problem(s) X of SE-Task(s) X, providing new findings about specific LLM attributes.'
     EXISTING_SOLUTION_EVALUATION = 'existing_solution_evaluation', 'Papers investigating existing Solution (e.g. ChatGPT or Codex) Y\'s quality for Problem(s) X related to SE-Task(s) X, evaluating performance of existing LLM-based solutions.'
-    OTHER = 'other', 'Papers that do not clearly fit into the above categories.''```
+    OTHER = 'other', 'Papers that do not clearly fit into the above categories.'```
 
 -------------------------------------------------------------------------------
 
