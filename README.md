@@ -42,11 +42,14 @@ The `src` folder contains the source code used to classify research focus catego
 Example schema excerpt:
 ```python
 class ResearchFocusCategory(Enum):
-    DIRECT_SOLUTION = 'direct_solution', 'Proposes solutions to SE-related tasks.'
-    DATASET_BENCHMARK = 'dataset_benchmark', 'Develops datasets or benchmarks.'
-    LLM_PROPERTY_INVESTIGATION = 'llm_property_investigation', 'Explores LLM attributes.'
-    EXISTING_SOLUTION_EVALUATION = 'existing_solution_evaluation', 'Evaluates existing solutions.'
-    OTHER = 'other', 'Does not fit predefined categories.'```
+    """
+    This class defines the categories for classifying research papers based on their focus and intended goals in the context of utilizing LLMs for Software Engineering tasks.
+    """
+    DIRECT_SOLUTION = 'direct_solution', 'Papers proposing a solution Y for Problem(s) X related to SE-Task(s) X. Artifacts may include new frameworks, concepts, or modifications of existing solutions.'
+    DATASET_BENCHMARK = 'dataset_benchmark', 'Papers creating new Datasets or Benchmarks Y\' related to Problem(s) X of SE-Task(s) X for assessing the quality of Solutions Y.'
+    LLM_PROPERTY_INVESTIGATION = 'llm_property_investigation', 'Papers investigating properties of LLMs related to Problem(s) X of SE-Task(s) X, providing new findings about specific LLM attributes.'
+    EXISTING_SOLUTION_EVALUATION = 'existing_solution_evaluation', 'Papers investigating existing Solution (e.g. ChatGPT or Codex) Y\'s quality for Problem(s) X related to SE-Task(s) X, evaluating performance of existing LLM-based solutions.'
+    OTHER = 'other', 'Papers that do not clearly fit into the above categories.''```
 
 -------------------------------------------------------------------------------
 
