@@ -3,11 +3,12 @@
 
 # Thesis Supplementary Materials: *Large Language Models in Software Engineering: A Critical Review of Evaluation Strategies*
 
-This repository contains the supplementary materials for the Master’s thesis titled *Large Language Models in Software Engineering: A Critical Review of Evaluation Strategies*, submitted to the Freie Universität Berlin, Department of Computer Science, Software Engineering Group. The thesis was authored by Ali Bektas and supervised by Prof. Dr. Lutz Prechelt, with second supervision by Prof. Dr. Michael Felderer and mentoring by Carina Haupt.
+This repository contains the supplementary materials for the Master’s thesis titled *Large Language Models in Software Engineering: A Critical Review of Evaluation Strategies*, submitted to the Freie Universität Berlin, Department of Computer Science, Software Engineering Group. The thesis was authored by Ali Bektas and supervised by Prof. Dr. Lutz Prechelt, with second supervision by Prof. Dr. Michael Felderer (DLR), and mentoring by Carina Haupt (DLR).
 
 The thesis investigates evaluation strategies employed in research on Large Language Models (LLMs) for Software Engineering (SE), focusing on their reliability and relevance. Using a structured six-phase approach, the thesis critically reviews 41 papers, highlighting opportunities for improvement and actionable recommendations to enhance evaluation practices.
 
 ---
+
 
 ## Repository Contents
 
