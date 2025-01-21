@@ -32,7 +32,7 @@ The `data` folder contains review notes and structured information used in the t
 The `src` folder contains the source code used to classify research focus categories and process data for the review. This includes:
 
 - **Research Focus Categorization Code:**
-  - Implements tagging logic using OpenAI's API and LangChain library.
+  - Implements tagging logic for assining the research focus category using OpenAI's API and LangChain library.
   - [Tag Extraction Code](https://github.com/Alioio/thesis_llms4se_review/blob/main/thesis_research_focus_categorization/src/tag_extraction/tag_extractor.py)
 
 - **Tagging Schema Definition:**
