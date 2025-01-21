@@ -46,7 +46,7 @@ class ResearchFocusCategory(Enum):
     DATASET_BENCHMARK = 'dataset_benchmark', 'Develops datasets or benchmarks.'
     LLM_PROPERTY_INVESTIGATION = 'llm_property_investigation', 'Explores LLM attributes.'
     EXISTING_SOLUTION_EVALUATION = 'existing_solution_evaluation', 'Evaluates existing solutions.'
-    OTHER = 'other', 'Does not fit predefined categories.'
+    OTHER = 'other', 'Does not fit predefined categories.'```
 
 -------------------------------------------------------------------------------
 
